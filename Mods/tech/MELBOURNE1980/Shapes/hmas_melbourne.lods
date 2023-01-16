@@ -1,0 +1,6 @@
+model = {
+	lods = {		
+		{"hmas_melbourne.edm",50000.000000};
+	};
+	collision_shell = "hmas_melbourne_collision.edm";
+}

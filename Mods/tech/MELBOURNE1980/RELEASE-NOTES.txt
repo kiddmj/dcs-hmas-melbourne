@@ -1,0 +1,129 @@
+HMAS Melbourne II R12 : Release notes.
+
+INSTALLATION NOTES:
+
+Download the .7z file to Saved Games\DCS or Saved Games\DCS.openbeta.
+ "Extract Here" such that the liveries are in Saved Games\DCS[.openbeta]\Liveries,
+ and the main mod files  (entry.lua + others) are in Saved Games\DCS[.openbeta]\Mods\tech\MELBOURNE1980.
+
+==========================================================
+GENERAL NOTES:
+
+There are 3 variants:
+- HMAS Melbourne (Fixed Wing) - Version for all carrier-based aircraft types with
+	a collision model extension from the bow and 85m cat length to allow almost any aircraft to
+	launch from the catapult.
+	Should work well with the FA/18C, F-14, A-4E-C, AV-8BNA, any helicopter, and any
+	aircraft carrier capable aircraft in the future.
+	Helipads only align with the default yellow deck markings livery.
+- HMAS Melbourne (Fixed Wing [WIP]) - Version with real world cat length of 43m.
+	Will land all types above, and the AI doesn't seem to have issues launching aircraft either.
+	Can catapult launch the Hornet and Tomcat to varying degrees and weights.
+	Have a doctor on standby for the concussion of launch. The A-4E-C will generally knock the pilot out
+	and dive into the sea.
+	The catapult dynamics of either the ship or aircraft in DCS was not designed with short catapults
+	in mind.  Aircraft with long legs and high centres of gravity on the catapult tend to rear up
+	and bounce (sometimes destructively) down the catapult.**
+	This is the one I will keep working on to get the cat working at it's native length.
+- Majestic Class (STOVL) - ASW/LPH ship with no catapult, bridle arrestor, or landing arrestor gear.
+	For emulation of HMS Bulwark, Warrior, Ocean, etc. or other Majestic or Colossus class ships converted
+	to ASW/LPH platforms.  Helipads only align with the HMAS Sydney livery.
+	The HMAS Sydney livery (the default) is a fictional upgrade to the real HMAS Sydney as an ASW/LPH
+	carrier.  In real life, after a short period of fixed wing operations, she was converted to
+	a transport carrier.
+
+The HMAS Melbourne is small, especially if you are used to Nimitz class carriers.  Her entire length fits
+ on the just the flight deck portion of the USS Nimitz.
+The horizontal distance on approach from the round-down on the stern to the arrestor wires is much shorter
+ than on Nimitz class carriers, as is the entire ship.  As such, the vertical clearance over the stern on the
+ glideslope is small.  If you are more than a little low on the final approach you will hit it with sudden
+ and unflattering results.
+On "HMAS Melbourne (Fixed Wing)", the bow chock has a collision mesh. If taking off in an AV-8B,
+ avoid clipping it with your wheels or you will lose them.
+
+To connect to the catapult, lower the draw bar of Hornet and Tomcat a few meters before the shuttle (for
+ example, when the aircraft nose is over the shuttle).  The A-4E-C has this permanently down in code
+ so there is no need to lower the drawbar on that aircraft.
+ Taxi forward slowly until the nose wheel(s) are on the rear of the shuttle.
+ Release the brakes and quickly use the catapult hook-up command of the aircraft in question to hook
+ onto the catapult.  The exact position where the hook-up takes place varies from aircraft to aircraft.
+ Launch using the commands that your aircraft would use on any other carrier (usu. Shift+U or 100% Throttle).
+ 
+SUGGESTED Additional Mods:
+Battle group configuration for RAN service
+- The A-4E-C Skyhawk, but don't use the included Australian skins, download these:
+    https://www.digitalcombatsimulator.com/en/files/3309474/
+- HMAS Vampire (D11)/HMAS Vendetta (D08) - Modified Daring class destroyers
+	https://www.digitalcombatsimulator.com/en/files/3313017/
+- The Oliver Hazard Perry Guided Missile Frigate.
+	Included with DCS, this was the basis in slightly modified form for the
+	Adelaide Class firgates of the RAN.
+
+This is a list of my HMAS Melbourne related liveries for appropriate and
+ inappropriate aircraft, and all the downloads above.
+https://www.digitalcombatsimulator.com/en/files/filter/user-is-bungo/apply/?PER_PAGE=100
+
+==========================================================
+
+Upon landing, the AI will taxi to the starboard side of the bow and park 4x A-4E-C, 3x FA/18 Hornets,
+ or 2x F-14 Tomcats.
+
+The 40mm Bofors defences all function.
+
+KNOWN ISSUES:
+- The A-4E-C Skyhawk v1.4.x and earlier will have issues with freezing on deck/off the catapult,
+	and not detecting that you are on a carrier when trying to hook up to the catapult.
+	This is a Simple Flight Model issue generally.  Don't use it, use the A-4E-C EFM v2.0+ version instead.
+- There is an invisible collision mesh aft of helipad 6, ahead of the round-down where the aircraft will
+	rebound from if taxi'd into slowly, and damage the aircraft if taxi'd into with vigour or repeatedly.
+	Try not to taxi	aft	of helipad 6 until this is resolved. There is nothing in the collision model at
+	that location, so the reason for it is currently a mystery.
+- I have had one report of the A-4E-C EFM Beta 2 flipping over on landing with the tailhook interaction
+	with the deck, but have been unable to recreate this myself or with other testers.  If the tail hook
+	interacts with what causes the condition above behind helipad 6, this might cause it, but you would
+	need to be very low on the glideslope or touching down short for this to be a factor.
+- The clearance of the F-14 on the catapult with the Jet Blast Deflector is tight.  The afterburner
+	effect pays it no heed, and passes straight through it.
+- iFOLS is uncalibrated.  I have no frame of reference for it from other carriers.
+	If anyone would like to calibrate it and give feedback I won't mind at all.
+	It is all in the LUA code, not the model, so a text editor is all that is required to make changes,
+	we just need to know what those changes are.
+- There is no damage model, but there are damage zones, and fire will start in these if damaged enough.
+	The Damage values are uncalibrated, so YMMV on sinking her.
+
+This remains a work in progress, and should be considered late alpha state of completion.
+
+Constructive suggestions and bug reporting encouraged, "rivet counters" need not apply.  I will fix issues as I get time.
+Updates and improvements will follow as I have the time and motivation/inspiration, as I learn new skills,
+ and as DCS evolves.  In that order.
+ 
+Thanks go to @CrazyEddie, @Joey45, @Admiral189 & @Hawkeye60 for their guidance, assistance, and asset contributions.
+Thanks go out to @mmarques for lua fixes and @HellesBelle for testing and quantifying some issues with the arrestors.
+Also thanks go to and a couple of my mates who put up with the endless new downoads I give them.
+
+
+==========================================================
+
+Here are some Youtube videos for a bit of orientation:
+
+https://www.youtube.com/watch?v=O3DuTjN-BIU (Royal Australian Navy A-4G Skyhawk operation aboard HMAS Melbourne) (04:17 mins)
+https://www.youtube.com/watch?v=94ki39pQZIM (Sea Eagles (a very Australian Operational Documentary)) (16:01 mins)
+https://www.youtube.com/watch?v=4DHDhBfd6Hg (Colossus / Majestic Class - Guide 141 - Drachinifel) (08:03 mins)
+https://www.youtube.com/watch?v=5ov-IaxnYVA (Collage of other videos to Long Cool Woman by the Hollies) (03:27 mins)
+
+regards
+
+Braedon
+
+
+
+**  The catapult attachment to the aircraft does not hold the launch bar in position near the deck, only in
+ the line of the catapult, so vertical movement of the nose wheel is not constrained.  This leaves some
+ aircraft free to rear up and bounce down the catapult.  A short catapult out of necessity accelerates the
+ aircraft to flying speed faster.  This can have undesirable effects on the pilot, presumably caused
+ by the physics around the coupling of the centre of gravity and low centre of the application of thrust/drag
+ forces from the catapult.
+The higher the centre of gravity (and thus the point that inertial mass acts upon), the further away is it is
+ from the application of the catapult thrust on the deck.  This creates a turning moment that causes the aircraft
+ to rotate tail down (and thus nose up).  Then gravity takes hold and pulls the nose down again -> "rinse, lather, repeat".
+

@@ -1,0 +1,52 @@
+HMAS Melbourne
+
+hmas_melbourne.edm
+
+
+------------------
+Displacement:	
+    Standard: 15,740 long tons
+				(17,630 short tons)
+    Full load: 20,000 long tons
+				(22,000 short tons)
+Length:	
+			213.97m (702 ft) overall
+			Increased by 2.43m (8 ft), 1969
+Beam:		24.38m (80 ft)
+Draught:	7.62m (25 ft)
+Propulsion:	Two Parsons single-reduction geared turbine sets;
+	four Admiralty 3-drum boilers;
+	two screws (port: 3 blade, starboard: 4 blade);
+	40,000 shp (30,000 kW)
+Speed:	24 knots (44 km/h; 28 mph)
+Range:	
+    12,000 nautical miles (22,000 km; 14,000 mi)
+		at 14 knots (26 km/h; 16 mph)
+    6,200 nautical miles (11,500 km; 7,100 mi)
+		at 23 knots (43 km/h; 26 mph)
+Complement:	1,350, including 350 Air Group personnel
+Radar:
+    1969–1982:
+    1 × Type 293Q surface search set
+    1 × Type 978 navigational set
+    1 × LW-02 air search set
+    1 × SPN-35 landing aid radar
+Armament:	
+    1969–1980:
+		12 × Bofors (4 twin, 4 single)
+    1980–1982:
+		4 × Bofors (4 single)
+Aircraft carried:	Up to 27 aircraft, including helicopters
+------------------
+
+HMAS Melbourne (R21) was a Majestic-class light aircraft carrier operated by the Royal Australian Navy (RAN) from 1955 until 1982, and was the third and final conventional aircraft carrier to serve in the RAN. Melbourne was the only Commonwealth naval vessel to sink two friendly warships in peacetime collisions.
+
+Melbourne was laid down for the Royal Navy as the lead ship of the Majestic class (a derivative of the 1942 Light Fleet Carrier design philosophy) in April 1943, and was launched as HMS Majestic (R77) in February 1945. At the end of the Second World War, work on the ship was suspended until she was purchased by the RAN in 1947. At the time of purchase, it was decided to incorporate new aircraft carrier technologies into the design, making Melbourne the third ship to be constructed with an angled flight deck and the first to incorporate all 3 new inovations of a mirror landing aid, angled flight deck, and steam catapult at commissioning. Delays in construction and integrating the enhancements meant that the carrier was not commissioned until 1955.
+
+Melbourne never fired a shot in anger during her service career, having only peripheral, non-combat roles in relation to the Indonesia-Malaysia confrontation and the Vietnam War. She was, however, involved in two major collisions with allied vessels; though Melbourne was found not to be the primary cause of either incident. The first collision occurred on the evening of 10 February 1964, in which Melbourne rammed and sank the RAN destroyer HMAS Voyager, when the latter altered course across her bow. 82 of Voyager's personnel were killed, and two Royal Commissions were held to investigate the incident. The second collision occurred in the early morning of 3 June 1969, when Melbourne also rammed the United States Navy (USN) destroyer USS Frank E. Evans in similar circumstances. 74 American personnel died, and a joint USN–RAN Board of Inquiry was held. These incidents, along with several minor collisions, shipboard accidents and aircraft losses, led to the reputation that Melbourne was jinxed.
+
+Melbourne was paid off from RAN service in 1982. A proposal to convert her for use as a floating casino failed, and a 1984 sale was cancelled, before she was sold for scrap in 1985 and towed to China for breaking. The scrapping was delayed so Melbourne could be studied by the People's Liberation Army Navy (PLAN) as part of a secret project to develop a Chinese aircraft carrier and used to train PLAN aviators in carrier flight operations.
+
+As the lead ship of the Majestic-class of light aircraft carriers, Melbourne was conceived as a modified version of the Colossus-class carriers, incorporating improvements in flight deck design and habitability. Majestic- and Colossus-class carriers were almost identical in hull design and both were considered subclasses of the "1942 design" light aircraft carrier program. These carriers were intended as "disposable warships": to be disposed of at the end of World War II or within three years of entering service.  In fact they turned out to be antthing but, with HMAS Melbourne's service life being 27 years.
+The 1942 Light Fleet Carrier design spawned the many Colossus and Majestic class carriers that plied the worlds oceans in the service of the Australian, Argentine, Brazillian, Canadian, Dutch, French, and Indian navies.  The NAeL Minas Gerais (A11) being the last to leave service in 2001 after 56 years of service with the Royal Navy and the Brazilian Navy.
+
